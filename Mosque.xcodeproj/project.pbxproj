@@ -1,0 +1,1121 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0DED7321850D5E009ACD90 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DED7221850D5E009ACD90 /* InfoViewController.swift */; };
+		0E0DED7521855431009ACD90 /* NjoftimiFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DED7421855431009ACD90 /* NjoftimiFoto.swift */; };
+		0E0DED7721855BAE009ACD90 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DED7621855BAD009ACD90 /* GradientView.swift */; };
+		0E0DED7921856C9B009ACD90 /* KontaktiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DED7821856C9A009ACD90 /* KontaktiViewController.swift */; };
+		0E0DED7B21857690009ACD90 /* GradientView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DED7A21857690009ACD90 /* GradientView1.swift */; };
+		0E1419BA217E914700B2E33B /* ArkitekturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419B9217E914700B2E33B /* ArkitekturaViewController.swift */; };
+		0E1419BC217E91E500B2E33B /* MeetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419BB217E91E500B2E33B /* MeetingsViewController.swift */; };
+		0E1419BE217E9D0000B2E33B /* MeetingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419BD217E9D0000B2E33B /* MeetingsTableViewCell.swift */; };
+		0E1419C0217E9F3A00B2E33B /* MeetingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419BF217E9F3A00B2E33B /* MeetingsModel.swift */; };
+		0E1419C4217F5AED00B2E33B /* DonacionetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419C3217F5AED00B2E33B /* DonacionetViewController.swift */; };
+		0E1419D02180F27B00B2E33B /* SlideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419CE2180F27B00B2E33B /* SlideTableViewCell.swift */; };
+		0E1419D12180F27B00B2E33B /* SlideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1419CF2180F27B00B2E33B /* SlideTableViewCell.xib */; };
+		0E1419D3218337D600B2E33B /* AntarsiaPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419D2218337D500B2E33B /* AntarsiaPageViewController.swift */; };
+		0E1419D621833FBA00B2E33B /* Antarsia1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419D521833FBA00B2E33B /* Antarsia1ViewController.swift */; };
+		0E1419D821833FCE00B2E33B /* Antarsia2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419D721833FCE00B2E33B /* Antarsia2ViewController.swift */; };
+		0E1419DA21833FE000B2E33B /* Antarsia3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419D921833FE000B2E33B /* Antarsia3ViewController.swift */; };
+		0E1419DC21833FEC00B2E33B /* Antarsia4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419DB21833FEC00B2E33B /* Antarsia4ViewController.swift */; };
+		0E1419DE21833FFC00B2E33B /* Antarsia5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419DD21833FFC00B2E33B /* Antarsia5ViewController.swift */; };
+		0E1419E02183400C00B2E33B /* Antarsia6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419DF2183400C00B2E33B /* Antarsia6ViewController.swift */; };
+		0E1419E32183442900B2E33B /* AntarsiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419E22183442900B2E33B /* AntarsiaTableViewCell.swift */; };
+		0E1419E52183482400B2E33B /* AntarsiaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419E42183482400B2E33B /* AntarsiaModel.swift */; };
+		0E1419E7218348A400B2E33B /* AntarsiaArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1419E6218348A400B2E33B /* AntarsiaArray.swift */; };
+		0E1BB3C82183B8020053A723 /* SelectedNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1BB3C72183B8010053A723 /* SelectedNewsViewController.swift */; };
+		0EEDDA11217CF7A5006864F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA10217CF7A5006864F8 /* AppDelegate.swift */; };
+		0EEDDA13217CF7A5006864F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA12217CF7A5006864F8 /* ViewController.swift */; };
+		0EEDDA16217CF7A5006864F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDDA14217CF7A5006864F8 /* Main.storyboard */; };
+		0EEDDA18217CF7A5006864F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDDA17217CF7A5006864F8 /* Assets.xcassets */; };
+		0EEDDA1B217CF7A5006864F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEDDA19217CF7A5006864F8 /* LaunchScreen.storyboard */; };
+		0EEDDA26217CF7A6006864F8 /* MosqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA25217CF7A6006864F8 /* MosqueTests.swift */; };
+		0EEDDA31217CF7A6006864F8 /* MosqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA30217CF7A6006864F8 /* MosqueUITests.swift */; };
+		0EEDDA42217CFE66006864F8 /* HyrjaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA41217CFE66006864F8 /* HyrjaViewController.swift */; };
+		0EEDDA44217D03F4006864F8 /* RrethNeshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA43217D03F4006864F8 /* RrethNeshViewController.swift */; };
+		0EEDDA46217D2662006864F8 /* NjoftimetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA45217D2662006864F8 /* NjoftimetTableViewCell.swift */; };
+		0EEDDA48217D269D006864F8 /* NjoftimetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA47217D269D006864F8 /* NjoftimetViewController.swift */; };
+		0EEDDA4A217D2BC3006864F8 /* NjoftimetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA49217D2BC3006864F8 /* NjoftimetModel.swift */; };
+		0EEDDA54217D5A29006864F8 /* VirtualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA53217D5A29006864F8 /* VirtualViewController.swift */; };
+		0EEDDA56217D5AAB006864F8 /* IslamiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDDA55217D5AAB006864F8 /* IslamiViewController.swift */; };
+		2F02CC6E966FB411625A1F95 /* Pods_MosqueNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDC0BB335E438E714816EF6 /* Pods_MosqueNotifications.framework */; };
+		64747FBA758BCBC2AA02A6E2 /* Pods_Mosque.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB94FFF6B1F4EDDDB7A8B7 /* Pods_Mosque.framework */; };
+		BF2B1D0121925E8A003E3A68 /* open-sans in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D0021925E89003E3A68 /* open-sans */; };
+		BF2B1D0321925E93003E3A68 /* Lato2OFL in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D0221925E93003E3A68 /* Lato2OFL */; };
+		BF2B1D0521925E9B003E3A68 /* roboto in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D0421925E9B003E3A68 /* roboto */; };
+		BF2B1D0A2192637E003E3A68 /* Trade_Gothic_Font 2 in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D092192637E003E3A68 /* Trade_Gothic_Font 2 */; };
+		BF2B1D0E21926574003E3A68 /* Trade Gothic LT Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D0D21926574003E3A68 /* Trade Gothic LT Bold.ttf */; };
+		BF2B1D15219265ED003E3A68 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D0F219265EC003E3A68 /* Lato-Light.ttf */; };
+		BF2B1D16219265ED003E3A68 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D10219265EC003E3A68 /* Lato-Bold.ttf */; };
+		BF2B1D17219265ED003E3A68 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D11219265EC003E3A68 /* Lato-Medium.ttf */; };
+		BF2B1D18219265ED003E3A68 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D12219265EC003E3A68 /* Lato-Regular.ttf */; };
+		BF2B1D19219265ED003E3A68 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D13219265ED003E3A68 /* Lato-Italic.ttf */; };
+		BF2B1D1A219265ED003E3A68 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D14219265ED003E3A68 /* Lato-Semibold.ttf */; };
+		BF2B1D1D21926609003E3A68 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D1B21926608003E3A68 /* Roboto-Medium.ttf */; };
+		BF2B1D1E21926609003E3A68 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D1C21926608003E3A68 /* Roboto-Regular.ttf */; };
+		BF2B1D212192662A003E3A68 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D1F2192662A003E3A68 /* OpenSans-Regular.ttf */; };
+		BF2B1D222192662A003E3A68 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2B1D202192662A003E3A68 /* OpenSans-Light.ttf */; };
+		BF648F5E21A3CF4800388AA9 /* VirtualFloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF648F5D21A3CF4800388AA9 /* VirtualFloorViewController.swift */; };
+		BF79F01A218A30BE00741DAB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF79F019218A30BE00741DAB /* NotificationService.swift */; };
+		BF79F01E218A30BE00741DAB /* MosqueNotifications.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF79F017218A30BE00741DAB /* MosqueNotifications.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF7E2699219E360200DDF2AD /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E2698219E360200DDF2AD /* HexColor.swift */; };
+		BF7E269F219EC0BA00DDF2AD /* FbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E269E219EC0BA00DDF2AD /* FbViewController.swift */; };
+		BF7E26A1219EC22500DDF2AD /* FacebookExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E26A0219EC22500DDF2AD /* FacebookExt.swift */; };
+		BF86BFC2219F2FED00C90DF0 /* PhoneCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86BFC1219F2FED00C90DF0 /* PhoneCall.swift */; };
+		BFC8893021A4D40A00F61EA3 /* ViewSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC8892F21A4D40900F61EA3 /* ViewSlide.xib */; };
+		BFC8893221A4F2A100F61EA3 /* SkinciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8893121A4F2A100F61EA3 /* SkinciViewController.swift */; };
+		BFC8893421A4F66000F61EA3 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8893321A4F66000F61EA3 /* Slide.swift */; };
+		BFC8893621A4F67A00F61EA3 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC8893521A4F67A00F61EA3 /* View.xib */; };
+		BFF64A2A2195359D00F2E8A6 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF64A292195359D00F2E8A6 /* CustomImageView.swift */; };
+		BFF64A2C2195438300F2E8A6 /* UIImageViewAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF64A2B2195438200F2E8A6 /* UIImageViewAsync.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EEDDA22217CF7A6006864F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEDDA05217CF7A5006864F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEDDA0C217CF7A5006864F8;
+			remoteInfo = Mosque;
+		};
+		0EEDDA2D217CF7A6006864F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEDDA05217CF7A5006864F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEDDA0C217CF7A5006864F8;
+			remoteInfo = Mosque;
+		};
+		BF79F01C218A30BE00741DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEDDA05217CF7A5006864F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF79F016218A30BE00741DAB;
+			remoteInfo = MosqueNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF79F022218A30BE00741DAB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF79F01E218A30BE00741DAB /* MosqueNotifications.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E0DED7221850D5E009ACD90 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0E0DED7421855431009ACD90 /* NjoftimiFoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NjoftimiFoto.swift; sourceTree = "<group>"; };
+		0E0DED7621855BAD009ACD90 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		0E0DED7821856C9A009ACD90 /* KontaktiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KontaktiViewController.swift; sourceTree = "<group>"; };
+		0E0DED7A21857690009ACD90 /* GradientView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView1.swift; sourceTree = "<group>"; };
+		0E1419B9217E914700B2E33B /* ArkitekturaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArkitekturaViewController.swift; sourceTree = "<group>"; };
+		0E1419BB217E91E500B2E33B /* MeetingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsViewController.swift; sourceTree = "<group>"; };
+		0E1419BD217E9D0000B2E33B /* MeetingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsTableViewCell.swift; sourceTree = "<group>"; };
+		0E1419BF217E9F3A00B2E33B /* MeetingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsModel.swift; sourceTree = "<group>"; };
+		0E1419C3217F5AED00B2E33B /* DonacionetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonacionetViewController.swift; path = Assets.xcassets/DonacionetViewController.swift; sourceTree = "<group>"; };
+		0E1419CE2180F27B00B2E33B /* SlideTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTableViewCell.swift; sourceTree = "<group>"; };
+		0E1419CF2180F27B00B2E33B /* SlideTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideTableViewCell.xib; sourceTree = "<group>"; };
+		0E1419D2218337D500B2E33B /* AntarsiaPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntarsiaPageViewController.swift; sourceTree = "<group>"; };
+		0E1419D521833FBA00B2E33B /* Antarsia1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antarsia1ViewController.swift; sourceTree = "<group>"; };
+		0E1419D721833FCE00B2E33B /* Antarsia2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antarsia2ViewController.swift; sourceTree = "<group>"; };
+		0E1419D921833FE000B2E33B /* Antarsia3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antarsia3ViewController.swift; sourceTree = "<group>"; };
+		0E1419DB21833FEC00B2E33B /* Antarsia4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antarsia4ViewController.swift; sourceTree = "<group>"; };
+		0E1419DD21833FFC00B2E33B /* Antarsia5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antarsia5ViewController.swift; sourceTree = "<group>"; };
+		0E1419DF2183400C00B2E33B /* Antarsia6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Antarsia6ViewController.swift; sourceTree = "<group>"; };
+		0E1419E22183442900B2E33B /* AntarsiaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntarsiaTableViewCell.swift; sourceTree = "<group>"; };
+		0E1419E42183482400B2E33B /* AntarsiaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntarsiaModel.swift; sourceTree = "<group>"; };
+		0E1419E6218348A400B2E33B /* AntarsiaArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntarsiaArray.swift; sourceTree = "<group>"; };
+		0E1BB3C72183B8010053A723 /* SelectedNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedNewsViewController.swift; sourceTree = "<group>"; };
+		0EEDDA0D217CF7A5006864F8 /* Mosque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mosque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEDDA10217CF7A5006864F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EEDDA12217CF7A5006864F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EEDDA15217CF7A5006864F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EEDDA17217CF7A5006864F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EEDDA1A217CF7A5006864F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EEDDA1C217CF7A6006864F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEDDA21217CF7A6006864F8 /* MosqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosqueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEDDA25217CF7A6006864F8 /* MosqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueTests.swift; sourceTree = "<group>"; };
+		0EEDDA27217CF7A6006864F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEDDA2C217CF7A6006864F8 /* MosqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEDDA30217CF7A6006864F8 /* MosqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueUITests.swift; sourceTree = "<group>"; };
+		0EEDDA32217CF7A6006864F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEDDA41217CFE66006864F8 /* HyrjaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyrjaViewController.swift; sourceTree = "<group>"; };
+		0EEDDA43217D03F4006864F8 /* RrethNeshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RrethNeshViewController.swift; sourceTree = "<group>"; };
+		0EEDDA45217D2662006864F8 /* NjoftimetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NjoftimetTableViewCell.swift; sourceTree = "<group>"; };
+		0EEDDA47217D269D006864F8 /* NjoftimetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NjoftimetViewController.swift; sourceTree = "<group>"; };
+		0EEDDA49217D2BC3006864F8 /* NjoftimetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NjoftimetModel.swift; sourceTree = "<group>"; };
+		0EEDDA53217D5A29006864F8 /* VirtualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualViewController.swift; sourceTree = "<group>"; };
+		0EEDDA55217D5AAB006864F8 /* IslamiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IslamiViewController.swift; sourceTree = "<group>"; };
+		240EE7FF07496DA0FA2A8DFE /* Pods-Mosque.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mosque.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mosque/Pods-Mosque.release.xcconfig"; sourceTree = "<group>"; };
+		2ECB94FFF6B1F4EDDDB7A8B7 /* Pods_Mosque.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mosque.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDC0BB335E438E714816EF6 /* Pods_MosqueNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosqueNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08D52EBA469C5ED94ACB4B2 /* Pods-MosqueNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosqueNotifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosqueNotifications/Pods-MosqueNotifications.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2B1D0021925E89003E3A68 /* open-sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "open-sans"; sourceTree = "<group>"; };
+		BF2B1D0221925E93003E3A68 /* Lato2OFL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lato2OFL; sourceTree = "<group>"; };
+		BF2B1D0421925E9B003E3A68 /* roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = roboto; sourceTree = "<group>"; };
+		BF2B1D082192627F003E3A68 /* trade-gothic-lt-1361519976.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trade-gothic-lt-1361519976.otf"; sourceTree = "<group>"; };
+		BF2B1D092192637E003E3A68 /* Trade_Gothic_Font 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Trade_Gothic_Font 2"; sourceTree = "<group>"; };
+		BF2B1D0B2192651B003E3A68 /* Trade_Gothic_Font 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Trade_Gothic_Font 2"; sourceTree = "<group>"; };
+		BF2B1D0D21926574003E3A68 /* Trade Gothic LT Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trade Gothic LT Bold.ttf"; sourceTree = "<group>"; };
+		BF2B1D0F219265EC003E3A68 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		BF2B1D10219265EC003E3A68 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		BF2B1D11219265EC003E3A68 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		BF2B1D12219265EC003E3A68 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		BF2B1D13219265ED003E3A68 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		BF2B1D14219265ED003E3A68 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		BF2B1D1B21926608003E3A68 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		BF2B1D1C21926608003E3A68 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BF2B1D1F2192662A003E3A68 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		BF2B1D202192662A003E3A68 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		BF648F5D21A3CF4800388AA9 /* VirtualFloorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualFloorViewController.swift; sourceTree = "<group>"; };
+		BF79F017218A30BE00741DAB /* MosqueNotifications.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MosqueNotifications.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF79F019218A30BE00741DAB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		BF79F01B218A30BE00741DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF79F023218A31B200741DAB /* MosqueNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MosqueNotifications.entitlements; sourceTree = "<group>"; };
+		BF79F024218A3B7C00741DAB /* Mosque.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mosque.entitlements; sourceTree = "<group>"; };
+		BF7E2698219E360200DDF2AD /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		BF7E269E219EC0BA00DDF2AD /* FbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FbViewController.swift; sourceTree = "<group>"; };
+		BF7E26A0219EC22500DDF2AD /* FacebookExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookExt.swift; sourceTree = "<group>"; };
+		BF86BFC1219F2FED00C90DF0 /* PhoneCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCall.swift; sourceTree = "<group>"; };
+		BFC8892F21A4D40900F61EA3 /* ViewSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewSlide.xib; sourceTree = "<group>"; };
+		BFC8893121A4F2A100F61EA3 /* SkinciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinciViewController.swift; sourceTree = "<group>"; };
+		BFC8893321A4F66000F61EA3 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		BFC8893521A4F67A00F61EA3 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		BFF64A292195359D00F2E8A6 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		BFF64A2B2195438200F2E8A6 /* UIImageViewAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewAsync.swift; sourceTree = "<group>"; };
+		F29FBA21E5F1C98563674703 /* Pods-Mosque.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mosque.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mosque/Pods-Mosque.debug.xcconfig"; sourceTree = "<group>"; };
+		F380546CE6D03062FB9A1A88 /* Pods-MosqueNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosqueNotifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosqueNotifications/Pods-MosqueNotifications.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEDDA0A217CF7A5006864F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64747FBA758BCBC2AA02A6E2 /* Pods_Mosque.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEDDA1E217CF7A6006864F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEDDA29217CF7A6006864F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF79F014218A30BE00741DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F02CC6E966FB411625A1F95 /* Pods_MosqueNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1419D421833F7F00B2E33B /* AntarsiaViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E1419D2218337D500B2E33B /* AntarsiaPageViewController.swift */,
+				0E1419D521833FBA00B2E33B /* Antarsia1ViewController.swift */,
+				0E1419D721833FCE00B2E33B /* Antarsia2ViewController.swift */,
+				0E1419D921833FE000B2E33B /* Antarsia3ViewController.swift */,
+				0E1419DB21833FEC00B2E33B /* Antarsia4ViewController.swift */,
+				0E1419DD21833FFC00B2E33B /* Antarsia5ViewController.swift */,
+				0E1419DF2183400C00B2E33B /* Antarsia6ViewController.swift */,
+			);
+			name = AntarsiaViewControllers;
+			sourceTree = "<group>";
+		};
+		0E1419E12183440500B2E33B /* AntarsiaTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0E1419E22183442900B2E33B /* AntarsiaTableViewCell.swift */,
+				0E1419E42183482400B2E33B /* AntarsiaModel.swift */,
+				0E1419E6218348A400B2E33B /* AntarsiaArray.swift */,
+			);
+			name = AntarsiaTableViewCells;
+			sourceTree = "<group>";
+		};
+		0EEDDA04217CF7A5006864F8 = {
+			isa = PBXGroup;
+			children = (
+				BF2B1D202192662A003E3A68 /* OpenSans-Light.ttf */,
+				BF2B1D1F2192662A003E3A68 /* OpenSans-Regular.ttf */,
+				BF2B1D1B21926608003E3A68 /* Roboto-Medium.ttf */,
+				BF2B1D1C21926608003E3A68 /* Roboto-Regular.ttf */,
+				BF2B1D10219265EC003E3A68 /* Lato-Bold.ttf */,
+				BF2B1D13219265ED003E3A68 /* Lato-Italic.ttf */,
+				BF2B1D0F219265EC003E3A68 /* Lato-Light.ttf */,
+				BF2B1D11219265EC003E3A68 /* Lato-Medium.ttf */,
+				BF2B1D12219265EC003E3A68 /* Lato-Regular.ttf */,
+				BF2B1D14219265ED003E3A68 /* Lato-Semibold.ttf */,
+				BF2B1D0D21926574003E3A68 /* Trade Gothic LT Bold.ttf */,
+				BF2B1D0B2192651B003E3A68 /* Trade_Gothic_Font 2 */,
+				0EEDDA0F217CF7A5006864F8 /* Mosque */,
+				BF2B1D0221925E93003E3A68 /* Lato2OFL */,
+				0EEDDA24217CF7A6006864F8 /* MosqueTests */,
+				0EEDDA2F217CF7A6006864F8 /* MosqueUITests */,
+				BF79F018218A30BE00741DAB /* MosqueNotifications */,
+				0EEDDA0E217CF7A5006864F8 /* Products */,
+				80F4BAD0003524E5FDA71062 /* Pods */,
+				22E979C298DE9C04C233C5F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EEDDA0E217CF7A5006864F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEDDA0D217CF7A5006864F8 /* Mosque.app */,
+				0EEDDA21217CF7A6006864F8 /* MosqueTests.xctest */,
+				0EEDDA2C217CF7A6006864F8 /* MosqueUITests.xctest */,
+				BF79F017218A30BE00741DAB /* MosqueNotifications.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EEDDA0F217CF7A5006864F8 /* Mosque */ = {
+			isa = PBXGroup;
+			children = (
+				BF79F024218A3B7C00741DAB /* Mosque.entitlements */,
+				0EEDDA3E217CFE34006864F8 /* Controller */,
+				0EEDDA3F217CFE36006864F8 /* Model */,
+				0EEDDA40217CFE38006864F8 /* View */,
+				0EEDDA19217CF7A5006864F8 /* LaunchScreen.storyboard */,
+				0EEDDA1C217CF7A6006864F8 /* Info.plist */,
+				BF2B1D082192627F003E3A68 /* trade-gothic-lt-1361519976.otf */,
+				BF2B1D092192637E003E3A68 /* Trade_Gothic_Font 2 */,
+				BF2B1D0421925E9B003E3A68 /* roboto */,
+				BF2B1D0021925E89003E3A68 /* open-sans */,
+			);
+			path = Mosque;
+			sourceTree = "<group>";
+		};
+		0EEDDA24217CF7A6006864F8 /* MosqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEDDA25217CF7A6006864F8 /* MosqueTests.swift */,
+				0EEDDA27217CF7A6006864F8 /* Info.plist */,
+			);
+			path = MosqueTests;
+			sourceTree = "<group>";
+		};
+		0EEDDA2F217CF7A6006864F8 /* MosqueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EEDDA30217CF7A6006864F8 /* MosqueUITests.swift */,
+				0EEDDA32217CF7A6006864F8 /* Info.plist */,
+			);
+			path = MosqueUITests;
+			sourceTree = "<group>";
+		};
+		0EEDDA3E217CFE34006864F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E1419D421833F7F00B2E33B /* AntarsiaViewControllers */,
+				0EEDDA10217CF7A5006864F8 /* AppDelegate.swift */,
+				0EEDDA12217CF7A5006864F8 /* ViewController.swift */,
+				0EEDDA41217CFE66006864F8 /* HyrjaViewController.swift */,
+				0EEDDA43217D03F4006864F8 /* RrethNeshViewController.swift */,
+				0EEDDA47217D269D006864F8 /* NjoftimetViewController.swift */,
+				0EEDDA53217D5A29006864F8 /* VirtualViewController.swift */,
+				0EEDDA55217D5AAB006864F8 /* IslamiViewController.swift */,
+				0E1419B9217E914700B2E33B /* ArkitekturaViewController.swift */,
+				0E1419BB217E91E500B2E33B /* MeetingsViewController.swift */,
+				0E1419C3217F5AED00B2E33B /* DonacionetViewController.swift */,
+				0E1BB3C72183B8010053A723 /* SelectedNewsViewController.swift */,
+				0E0DED7221850D5E009ACD90 /* InfoViewController.swift */,
+				0E0DED7821856C9A009ACD90 /* KontaktiViewController.swift */,
+				BF7E269E219EC0BA00DDF2AD /* FbViewController.swift */,
+				BF648F5D21A3CF4800388AA9 /* VirtualFloorViewController.swift */,
+				BFC8893121A4F2A100F61EA3 /* SkinciViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0EEDDA3F217CFE36006864F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E1419E12183440500B2E33B /* AntarsiaTableViewCells */,
+				0EEDDA45217D2662006864F8 /* NjoftimetTableViewCell.swift */,
+				0EEDDA49217D2BC3006864F8 /* NjoftimetModel.swift */,
+				0E1419BD217E9D0000B2E33B /* MeetingsTableViewCell.swift */,
+				0E1419BF217E9F3A00B2E33B /* MeetingsModel.swift */,
+				0E0DED7421855431009ACD90 /* NjoftimiFoto.swift */,
+				BFF64A292195359D00F2E8A6 /* CustomImageView.swift */,
+				BFF64A2B2195438200F2E8A6 /* UIImageViewAsync.swift */,
+				BF7E26A0219EC22500DDF2AD /* FacebookExt.swift */,
+				BF86BFC1219F2FED00C90DF0 /* PhoneCall.swift */,
+				BFC8893321A4F66000F61EA3 /* Slide.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0EEDDA40217CFE38006864F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EEDDA14217CF7A5006864F8 /* Main.storyboard */,
+				0EEDDA17217CF7A5006864F8 /* Assets.xcassets */,
+				0E1419CE2180F27B00B2E33B /* SlideTableViewCell.swift */,
+				0E1419CF2180F27B00B2E33B /* SlideTableViewCell.xib */,
+				0E0DED7621855BAD009ACD90 /* GradientView.swift */,
+				0E0DED7A21857690009ACD90 /* GradientView1.swift */,
+				BF7E2698219E360200DDF2AD /* HexColor.swift */,
+				BFC8892F21A4D40900F61EA3 /* ViewSlide.xib */,
+				BFC8893521A4F67A00F61EA3 /* View.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		22E979C298DE9C04C233C5F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB94FFF6B1F4EDDDB7A8B7 /* Pods_Mosque.framework */,
+				5BDC0BB335E438E714816EF6 /* Pods_MosqueNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80F4BAD0003524E5FDA71062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBA21E5F1C98563674703 /* Pods-Mosque.debug.xcconfig */,
+				240EE7FF07496DA0FA2A8DFE /* Pods-Mosque.release.xcconfig */,
+				A08D52EBA469C5ED94ACB4B2 /* Pods-MosqueNotifications.debug.xcconfig */,
+				F380546CE6D03062FB9A1A88 /* Pods-MosqueNotifications.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF79F018218A30BE00741DAB /* MosqueNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				BF79F023218A31B200741DAB /* MosqueNotifications.entitlements */,
+				BF79F019218A30BE00741DAB /* NotificationService.swift */,
+				BF79F01B218A30BE00741DAB /* Info.plist */,
+			);
+			path = MosqueNotifications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EEDDA0C217CF7A5006864F8 /* Mosque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEDDA35217CF7A6006864F8 /* Build configuration list for PBXNativeTarget "Mosque" */;
+			buildPhases = (
+				17F37C9F86B9AC0D375285FD /* [CP] Check Pods Manifest.lock */,
+				0EEDDA09217CF7A5006864F8 /* Sources */,
+				0EEDDA0A217CF7A5006864F8 /* Frameworks */,
+				0EEDDA0B217CF7A5006864F8 /* Resources */,
+				C12E76CA84313B0B938E8D89 /* [CP] Embed Pods Frameworks */,
+				BF79F022218A30BE00741DAB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF79F01D218A30BE00741DAB /* PBXTargetDependency */,
+			);
+			name = Mosque;
+			productName = Mosque;
+			productReference = 0EEDDA0D217CF7A5006864F8 /* Mosque.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EEDDA20217CF7A6006864F8 /* MosqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEDDA38217CF7A6006864F8 /* Build configuration list for PBXNativeTarget "MosqueTests" */;
+			buildPhases = (
+				0EEDDA1D217CF7A6006864F8 /* Sources */,
+				0EEDDA1E217CF7A6006864F8 /* Frameworks */,
+				0EEDDA1F217CF7A6006864F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EEDDA23217CF7A6006864F8 /* PBXTargetDependency */,
+			);
+			name = MosqueTests;
+			productName = MosqueTests;
+			productReference = 0EEDDA21217CF7A6006864F8 /* MosqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EEDDA2B217CF7A6006864F8 /* MosqueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEDDA3B217CF7A6006864F8 /* Build configuration list for PBXNativeTarget "MosqueUITests" */;
+			buildPhases = (
+				0EEDDA28217CF7A6006864F8 /* Sources */,
+				0EEDDA29217CF7A6006864F8 /* Frameworks */,
+				0EEDDA2A217CF7A6006864F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EEDDA2E217CF7A6006864F8 /* PBXTargetDependency */,
+			);
+			name = MosqueUITests;
+			productName = MosqueUITests;
+			productReference = 0EEDDA2C217CF7A6006864F8 /* MosqueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BF79F016218A30BE00741DAB /* MosqueNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF79F021218A30BE00741DAB /* Build configuration list for PBXNativeTarget "MosqueNotifications" */;
+			buildPhases = (
+				5A8C06F7CD82F5CEE0246F48 /* [CP] Check Pods Manifest.lock */,
+				BF79F013218A30BE00741DAB /* Sources */,
+				BF79F014218A30BE00741DAB /* Frameworks */,
+				BF79F015218A30BE00741DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosqueNotifications;
+			productName = MosqueNotifications;
+			productReference = BF79F017218A30BE00741DAB /* MosqueNotifications.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EEDDA05217CF7A5006864F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Arlind Aliu";
+				TargetAttributes = {
+					0EEDDA0C217CF7A5006864F8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4RBC76HLVA;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0EEDDA20217CF7A6006864F8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9Q86QU4A8J;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EEDDA0C217CF7A5006864F8;
+					};
+					0EEDDA2B217CF7A6006864F8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9Q86QU4A8J;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EEDDA0C217CF7A5006864F8;
+					};
+					BF79F016218A30BE00741DAB = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = 4RBC76HLVA;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0EEDDA08217CF7A5006864F8 /* Build configuration list for PBXProject "Mosque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EEDDA04217CF7A5006864F8;
+			productRefGroup = 0EEDDA0E217CF7A5006864F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EEDDA0C217CF7A5006864F8 /* Mosque */,
+				0EEDDA20217CF7A6006864F8 /* MosqueTests */,
+				0EEDDA2B217CF7A6006864F8 /* MosqueUITests */,
+				BF79F016218A30BE00741DAB /* MosqueNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EEDDA0B217CF7A5006864F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2B1D212192662A003E3A68 /* OpenSans-Regular.ttf in Resources */,
+				BF2B1D222192662A003E3A68 /* OpenSans-Light.ttf in Resources */,
+				BFC8893021A4D40A00F61EA3 /* ViewSlide.xib in Resources */,
+				BF2B1D1D21926609003E3A68 /* Roboto-Medium.ttf in Resources */,
+				BF2B1D1E21926609003E3A68 /* Roboto-Regular.ttf in Resources */,
+				BF2B1D15219265ED003E3A68 /* Lato-Light.ttf in Resources */,
+				BF2B1D16219265ED003E3A68 /* Lato-Bold.ttf in Resources */,
+				BFC8893621A4F67A00F61EA3 /* View.xib in Resources */,
+				BF2B1D17219265ED003E3A68 /* Lato-Medium.ttf in Resources */,
+				BF2B1D18219265ED003E3A68 /* Lato-Regular.ttf in Resources */,
+				BF2B1D19219265ED003E3A68 /* Lato-Italic.ttf in Resources */,
+				BF2B1D1A219265ED003E3A68 /* Lato-Semibold.ttf in Resources */,
+				BF2B1D0E21926574003E3A68 /* Trade Gothic LT Bold.ttf in Resources */,
+				BF2B1D0321925E93003E3A68 /* Lato2OFL in Resources */,
+				0EEDDA1B217CF7A5006864F8 /* LaunchScreen.storyboard in Resources */,
+				BF2B1D0121925E8A003E3A68 /* open-sans in Resources */,
+				BF2B1D0521925E9B003E3A68 /* roboto in Resources */,
+				BF2B1D0A2192637E003E3A68 /* Trade_Gothic_Font 2 in Resources */,
+				0EEDDA18217CF7A5006864F8 /* Assets.xcassets in Resources */,
+				0EEDDA16217CF7A5006864F8 /* Main.storyboard in Resources */,
+				0E1419D12180F27B00B2E33B /* SlideTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEDDA1F217CF7A6006864F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEDDA2A217CF7A6006864F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF79F015218A30BE00741DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F37C9F86B9AC0D375285FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mosque-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8C06F7CD82F5CEE0246F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MosqueNotifications-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12E76CA84313B0B938E8D89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mosque/Pods-Mosque-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mosque/Pods-Mosque-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEDDA09217CF7A5006864F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1419D621833FBA00B2E33B /* Antarsia1ViewController.swift in Sources */,
+				0EEDDA13217CF7A5006864F8 /* ViewController.swift in Sources */,
+				BFF64A2C2195438300F2E8A6 /* UIImageViewAsync.swift in Sources */,
+				0E1419BC217E91E500B2E33B /* MeetingsViewController.swift in Sources */,
+				0EEDDA48217D269D006864F8 /* NjoftimetViewController.swift in Sources */,
+				0EEDDA56217D5AAB006864F8 /* IslamiViewController.swift in Sources */,
+				0E1419C0217E9F3A00B2E33B /* MeetingsModel.swift in Sources */,
+				0EEDDA11217CF7A5006864F8 /* AppDelegate.swift in Sources */,
+				0E1BB3C82183B8020053A723 /* SelectedNewsViewController.swift in Sources */,
+				0E1419E02183400C00B2E33B /* Antarsia6ViewController.swift in Sources */,
+				BFF64A2A2195359D00F2E8A6 /* CustomImageView.swift in Sources */,
+				0E1419BE217E9D0000B2E33B /* MeetingsTableViewCell.swift in Sources */,
+				0E1419E7218348A400B2E33B /* AntarsiaArray.swift in Sources */,
+				0EEDDA44217D03F4006864F8 /* RrethNeshViewController.swift in Sources */,
+				0E1419DE21833FFC00B2E33B /* Antarsia5ViewController.swift in Sources */,
+				0E0DED7521855431009ACD90 /* NjoftimiFoto.swift in Sources */,
+				0E0DED7321850D5E009ACD90 /* InfoViewController.swift in Sources */,
+				BF7E269F219EC0BA00DDF2AD /* FbViewController.swift in Sources */,
+				BFC8893221A4F2A100F61EA3 /* SkinciViewController.swift in Sources */,
+				BF86BFC2219F2FED00C90DF0 /* PhoneCall.swift in Sources */,
+				BF7E2699219E360200DDF2AD /* HexColor.swift in Sources */,
+				0E1419D02180F27B00B2E33B /* SlideTableViewCell.swift in Sources */,
+				0E1419D821833FCE00B2E33B /* Antarsia2ViewController.swift in Sources */,
+				0E0DED7721855BAE009ACD90 /* GradientView.swift in Sources */,
+				0E1419C4217F5AED00B2E33B /* DonacionetViewController.swift in Sources */,
+				0E0DED7B21857690009ACD90 /* GradientView1.swift in Sources */,
+				0EEDDA54217D5A29006864F8 /* VirtualViewController.swift in Sources */,
+				0EEDDA4A217D2BC3006864F8 /* NjoftimetModel.swift in Sources */,
+				0E1419DC21833FEC00B2E33B /* Antarsia4ViewController.swift in Sources */,
+				0EEDDA42217CFE66006864F8 /* HyrjaViewController.swift in Sources */,
+				0E1419BA217E914700B2E33B /* ArkitekturaViewController.swift in Sources */,
+				0E1419DA21833FE000B2E33B /* Antarsia3ViewController.swift in Sources */,
+				0E1419E52183482400B2E33B /* AntarsiaModel.swift in Sources */,
+				BF648F5E21A3CF4800388AA9 /* VirtualFloorViewController.swift in Sources */,
+				0E1419D3218337D600B2E33B /* AntarsiaPageViewController.swift in Sources */,
+				0EEDDA46217D2662006864F8 /* NjoftimetTableViewCell.swift in Sources */,
+				0E1419E32183442900B2E33B /* AntarsiaTableViewCell.swift in Sources */,
+				0E0DED7921856C9B009ACD90 /* KontaktiViewController.swift in Sources */,
+				BF7E26A1219EC22500DDF2AD /* FacebookExt.swift in Sources */,
+				BFC8893421A4F66000F61EA3 /* Slide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEDDA1D217CF7A6006864F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEDDA26217CF7A6006864F8 /* MosqueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEDDA28217CF7A6006864F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEDDA31217CF7A6006864F8 /* MosqueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF79F013218A30BE00741DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF79F01A218A30BE00741DAB /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EEDDA23217CF7A6006864F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EEDDA0C217CF7A5006864F8 /* Mosque */;
+			targetProxy = 0EEDDA22217CF7A6006864F8 /* PBXContainerItemProxy */;
+		};
+		0EEDDA2E217CF7A6006864F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EEDDA0C217CF7A5006864F8 /* Mosque */;
+			targetProxy = 0EEDDA2D217CF7A6006864F8 /* PBXContainerItemProxy */;
+		};
+		BF79F01D218A30BE00741DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF79F016218A30BE00741DAB /* MosqueNotifications */;
+			targetProxy = BF79F01C218A30BE00741DAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EEDDA14217CF7A5006864F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEDDA15217CF7A5006864F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		0EEDDA19217CF7A5006864F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEDDA1A217CF7A5006864F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EEDDA33217CF7A6006864F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EEDDA34217CF7A6006864F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EEDDA36217CF7A6006864F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29FBA21E5F1C98563674703 /* Pods-Mosque.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mosque/Mosque.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4RBC76HLVA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Mosque/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu963.Mosque;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0EEDDA37217CF7A6006864F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240EE7FF07496DA0FA2A8DFE /* Pods-Mosque.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mosque/Mosque.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4RBC76HLVA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AlamofireImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Mosque/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu963.Mosque;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0EEDDA39217CF7A6006864F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9Q86QU4A8J;
+				INFOPLIST_FILE = MosqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu.MosqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mosque.app/Mosque";
+			};
+			name = Debug;
+		};
+		0EEDDA3A217CF7A6006864F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9Q86QU4A8J;
+				INFOPLIST_FILE = MosqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu.MosqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mosque.app/Mosque";
+			};
+			name = Release;
+		};
+		0EEDDA3C217CF7A6006864F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9Q86QU4A8J;
+				INFOPLIST_FILE = MosqueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu.MosqueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Mosque;
+			};
+			name = Debug;
+		};
+		0EEDDA3D217CF7A6006864F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9Q86QU4A8J;
+				INFOPLIST_FILE = MosqueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu.MosqueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Mosque;
+			};
+			name = Release;
+		};
+		BF79F01F218A30BE00741DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08D52EBA469C5ED94ACB4B2 /* Pods-MosqueNotifications.debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RBC76HLVA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MosqueNotifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu963.Mosque.MosqueNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF79F020218A30BE00741DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F380546CE6D03062FB9A1A88 /* Pods-MosqueNotifications.release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RBC76HLVA;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MosqueNotifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arlindaliu963.Mosque.MosqueNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEDDA08217CF7A5006864F8 /* Build configuration list for PBXProject "Mosque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEDDA33217CF7A6006864F8 /* Debug */,
+				0EEDDA34217CF7A6006864F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEDDA35217CF7A6006864F8 /* Build configuration list for PBXNativeTarget "Mosque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEDDA36217CF7A6006864F8 /* Debug */,
+				0EEDDA37217CF7A6006864F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEDDA38217CF7A6006864F8 /* Build configuration list for PBXNativeTarget "MosqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEDDA39217CF7A6006864F8 /* Debug */,
+				0EEDDA3A217CF7A6006864F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEDDA3B217CF7A6006864F8 /* Build configuration list for PBXNativeTarget "MosqueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEDDA3C217CF7A6006864F8 /* Debug */,
+				0EEDDA3D217CF7A6006864F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF79F021218A30BE00741DAB /* Build configuration list for PBXNativeTarget "MosqueNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF79F01F218A30BE00741DAB /* Debug */,
+				BF79F020218A30BE00741DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EEDDA05217CF7A5006864F8 /* Project object */;
+}
